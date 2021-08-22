@@ -16,7 +16,7 @@ export default new Vuex.Store({
       footerConfig: {},
     },
     items: [{
-        text: 'Home',
+        text: 'Inicio',
         to: '/',
         icon: 'mdi-home',
         meta: {
@@ -25,16 +25,16 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Events',
+        text: 'Eventos',
         to: '/events',
         icon: 'mdi-assistant',
         meta: {
-          showToolbar: true,
-          showBottomNav: true
+          showToolbar: false,
+          showBottomNav: false
         },
       },
       {
-        text: 'Team',
+        text: 'Equipo',
         to: '/team',
         icon: 'mdi-account-settings',
         meta: {
@@ -47,12 +47,12 @@ export default new Vuex.Store({
         to: '/speakers',
         icon: 'mdi-assistant',
         meta: {
-          showToolbar: true,
+          showToolbar: false,
           showBottomNav: false
         },
       },
       {
-        text: 'About',
+        text: 'Nosotros',
         to: '/about',
         icon: 'mdi-comment-alert',
         meta: {
@@ -61,7 +61,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Contact',
+        text: 'Contacto',
         to: '/contact',
         icon: 'mdi-contacts',
         meta: {
@@ -83,7 +83,7 @@ export default new Vuex.Store({
         to: '/blogs',
         icon: 'mdi-blogger',
         meta: {
-          showToolbar: true,
+          showToolbar: false,
           showBottomNav: false
         },
       }
