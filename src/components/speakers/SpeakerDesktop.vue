@@ -56,17 +56,17 @@
               </v-card>
             </v-col>
 
-            <v-col cols="12" sm="12">
+            <!-- <v-col cols="12" sm="12">
               <v-card>
                 <v-card-title class="google-font">About:</v-card-title>
                 <v-card-text>
                   <p class="google-font" style="font-size:90%">{{speaker.bio}}</p>
                 </v-card-text>
               </v-card>
-            </v-col>
+            </v-col> -->
           </v-row>
         </v-col>
-        <v-col cols="12" sm="8" md="9" lg="9">
+        <!-- <v-col cols="12" sm="8" md="9" lg="9">
           <v-row align="center">
             <v-col cols="12">
               <v-card outlined>
@@ -95,7 +95,7 @@
               </v-card>
             </v-col>
           </v-row>
-        </v-col>
+        </v-col> -->
       </v-row>
       <v-row
         justify="center"

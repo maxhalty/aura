@@ -52,7 +52,7 @@
           </v-row>
         </v-container>
 
-        <p class="my-0 google-font mt-2" style="font-size:120%">
+        <!-- <p class="my-0 google-font mt-2" style="font-size:120%">
           <b>Sessions:</b>
         </p>
 
@@ -75,7 +75,7 @@
               </v-list-item>
             </v-list>
           </v-col>
-        </v-row>
+        </v-row> -->
       </v-card-text>
     </v-card>
     <v-row

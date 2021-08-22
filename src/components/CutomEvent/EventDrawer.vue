@@ -68,8 +68,8 @@ export default {
         icon: "mdi-information-outline"
       },
       {
-        text: "Speakers",
-        to: "/speakers",
+        text: "Seminario",
+        to: "/seminario",
         icon: "mdi-account-multiple-outline"
       },
       {

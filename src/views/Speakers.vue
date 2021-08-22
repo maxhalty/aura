@@ -15,7 +15,7 @@
         class="pb-3"
         :class="this.$vuetify.theme.dark == true?'black':''"
       >
-        <v-col md="12" lg="10" sm="11" xs="12" class="pt-0" v-if="SpeakersData.length>0">
+        <v-col md="12" lg="10" sm="11" xs="12" class="pt-0" v-if="SpeakersData.length > 0">
           <v-container fluid class="py-0 my-0">
             <v-row align="center" justify="center" class="py-0 my-0">
               <v-col cols="12" md="12" lg="12" sm="12" class="py-0 my-0">
@@ -98,7 +98,7 @@ export default {
         .getAllSpeakers()
         .then(res => {
           if (res.success == true) {
-            this.SpeakersData = res.data.filter(res => res.visible);
+            this.SpeakersData = res.data.filter(res => res.visible).sort(function(a, b){return a.id-b.id});
             this.loader = false;
             this.noData = false;
           } else {

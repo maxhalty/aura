@@ -73,7 +73,7 @@ const routes = [{
       },
       {
         // when /event/:id/ is matched
-        path: 'speakers',
+        path: 'seminario',
         name:"CustomEventSpeaker",
         component: ()=> import(/* webpackChunkName: "CustomEventSpeaker" */ '../views/Events/Speaker.vue'),
         meta: {
@@ -120,20 +120,20 @@ const routes = [{
     ]
   },
   {
-    path: '/speakers',
-    name: 'Speakers',
+    path: '/seminario',
+    name: 'Seminario',
     component: () => import( /* webpackChunkName: "speakers" */ '../views/Speakers.vue'),
     meta: {
-      title: 'Speakers ',
+      title: 'Seminario ',
       color: '#0277bd',
     }
   },
   {
-    path: '/speakers/:id',
-    name: 'Speakers-Details',
+    path: '/seminario/:id',
+    name: 'Seminario-Details',
     component: () => import( /* webpackChunkName: "speakers-details" */ '../views/Speakers/SpeakerDetails.vue'),
     meta: {
-      title: 'Speakers ',
+      title: 'Seminario ',
       color: '#0277bd',
     }
   },

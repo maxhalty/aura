@@ -43,11 +43,11 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Speakers',
-        to: '/speakers',
+        text: 'Seminario',
+        to: '/seminario',
         icon: 'mdi-assistant',
         meta: {
-          showToolbar: false,
+          showToolbar: true,
           showBottomNav: false
         },
       },

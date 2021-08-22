@@ -8,7 +8,7 @@
       </v-row>
       <v-row justify="center" align="center" class="py-5" v-else-if="sData.length<=0 && !isLoading">
         <v-col cols="12" md="12">
-          <h2 :class="this.$vuetify.theme.dark?'white--text':'grey--text text--darken-3'" class="google-font mb-0">No Speaker Found.</h2>
+          <h2 :class="this.$vuetify.theme.dark?'white--text':'grey--text text--darken-3'" class="google-font mb-0">Ninguna tarjeta disponible.</h2>
           <!-- <p class="google-font" style="font-size:120%">No Speaker Found.</p> -->
         </v-col>
       </v-row>
@@ -16,7 +16,7 @@
         <v-col md="12" sm="12" cols="12" class="py-0 my-0">
           <v-row class="mt-5">
             <v-col class="">
-              <h2 :class="this.$vuetify.theme.dark?'white--text':'grey--text text--darken-3'" class="google-font mb-0">Check out our speaker lineup</h2>
+              <h2 :class="this.$vuetify.theme.dark?'white--text':'grey--text text--darken-3'" class="google-font mb-0">Mira nuestras opciones</h2>
             </v-col>
           </v-row>
           <v-row class="" v-if="checkExistance(eventDetails.speakers,0)">
