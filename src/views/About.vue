@@ -17,7 +17,7 @@
       </v-row>
     </v-container>
 
-    <v-container fluid class="pa-0 py-0 my-0">
+    <!-- <v-container fluid class="pa-0 py-0 my-0">
       <v-row
         justify="center"
         align="center"
@@ -37,7 +37,7 @@
           <antiHarassmentPolicy :data="config.generalConfig.shortName || config.generalConfig.name" />
         </v-col>
       </v-row>
-    </v-container>
+    </v-container> -->
   </v-content>
 </template>
 
@@ -48,10 +48,10 @@ import { mapState } from "vuex";
 export default {
   components: {
     aboutCommunity: () => import("@/components/about/AboutCommunity"),
-    aboutHeader: () => import("@/components/about/AboutHeader"),
-    communityGuidelines: () => import("@/components/about/CommunityGuidelines"),
-    coc: () => import("@/components/about/COC"),
-    antiHarassmentPolicy: () => import("@/components/about/AntiHar")
+    aboutHeader: () => import("@/components/about/AboutHeader")
+    // communityGuidelines: () => import("@/components/about/CommunityGuidelines"),
+    // coc: () => import("@/components/about/COC"),
+    // antiHarassmentPolicy: () => import("@/components/about/AntiHar")
   },
   computed: {
     ...mapState(["config"])

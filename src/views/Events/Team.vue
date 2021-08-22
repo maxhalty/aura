@@ -16,7 +16,7 @@
         <v-col md="12" sm="12" cols="12" class="py-0 my-0">
           <v-row class="mt-5">
             <v-col class="">
-              <h2 :class="this.$vuetify.theme.dark?'white--text':'grey--text text--darken-3'" class="google-font mb-0">Our Team</h2>
+              <h2 :class="this.$vuetify.theme.dark?'white--text':'grey--text text--darken-3'" class="google-font mb-0">Nuestro equipo</h2>
             </v-col>
           </v-row>
           <v-row class="" v-if="checkExistance(eventDetails.team,0)">

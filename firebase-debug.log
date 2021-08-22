@@ -1,0 +1,28 @@
+[debug] [2021-08-22T22:46:26.443Z] ----------------------------------------------------------------------
+[debug] [2021-08-22T22:46:26.445Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-08-22T22:46:26.445Z] CLI Version:   9.16.5
+[debug] [2021-08-22T22:46:26.445Z] Platform:      win32
+[debug] [2021-08-22T22:46:26.445Z] Node Version:  v12.0.0
+[debug] [2021-08-22T22:46:26.455Z] Time:          Sun Aug 22 2021 19:46:26 GMT-0300 (GMT-03:00)
+[debug] [2021-08-22T22:46:26.455Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-22T22:46:26.522Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-22T22:46:26.523Z] > authorizing via signed-in user (maximohalty@gmail.com)
+[debug] [2021-08-22T22:46:26.523Z] [iam] checking project koopa-3c68a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-08-22T22:46:26.525Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/koopa-3c68a:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-08-22T22:46:27.354Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 22 Aug 2021 22:46:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=105","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-22T22:46:27.356Z] > refreshing access token with scopes: []
+[debug] [2021-08-22T22:46:27.356Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-22T22:46:28.023Z] <<< HTTP RESPONSE 200 {"date":"Sun, 22 Aug 2021 22:46:27 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-22T22:46:28.049Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/koopa-3c68a [none]
+[debug] [2021-08-22T22:46:28.870Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/koopa-3c68a 200
+[debug] [2021-08-22T22:46:28.870Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/koopa-3c68a {"projectId":"koopa-3c68a","projectNumber":"50100845394","displayName":"koopa","name":"projects/koopa-3c68a","resources":{"hostingSite":"koopa-3c68a","storageBucket":"koopa-3c68a.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'koopa-3c68a'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-08-22T22:46:28.884Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-08-22T22:46:28.884Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
