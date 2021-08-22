@@ -21,4 +21,6 @@ yarn-error.log*
 *.sln
 *.sw?
 *.cache
-*.cache
+
+# Config
+firebase-config.js
