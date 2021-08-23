@@ -9,7 +9,7 @@
       <v-row v-else-if="Object.keys(speaker).length>0">
         <v-col cols="12" sm="6" md="6" lg="6">
           <v-row>
-            <v-col cols="12" sm="12">
+            <!-- <v-col cols="12" sm="12">
               <v-card elevation="1">
                 <v-card-title
                   class="grey lighten-4 google-font"
@@ -21,7 +21,7 @@
                   <v-container fluid class="my-0 pa-0">
                     <v-row align="center">
                       <v-col cols="12" class="text-center pa-2">
-                        <v-avatar size="300">
+                        <v-avatar size="500"> -->
                           <v-img
                             :src="checkExistance(speaker.image,0)?speaker.image:require('@/assets/img/dontremove/profile.jpg')"
                             style="border-style: solid;border-width: 5px;"
@@ -33,7 +33,7 @@
                               </v-row>
                             </template>
                           </v-img>
-                        </v-avatar>
+                        <!-- </v-avatar>
                         <p
                           class="my-0 mt-3 google-font"
                           style="font-size:150%;"
@@ -54,7 +54,7 @@
                   </v-container>
                 </v-card-text>
               </v-card>
-            </v-col>
+            </v-col> -->
 
             <!-- <v-col cols="12" sm="12">
               <v-card>
@@ -141,13 +141,13 @@
 
 <script>
 import service from "@/services/appservices";
-import SocialMediaDetails from '@/components/common/SocialInfo'
+// import SocialMediaDetails from '@/components/common/SocialInfo'
 import { mapState } from 'vuex'
 
 export default {
   name: "SpeakerDesktop",
   components:{
-    SocialMediaDetails
+    // SocialMediaDetails
   },
   data: () => ({
     speaker: {},

@@ -6,7 +6,7 @@
       </v-col>
     </v-row>
     <v-card v-else-if="Object.keys(speaker).length>0" flat class="ma-0 pa-0" color="transparent">
-      <v-card-title
+      <!-- <v-card-title
         class="grey lighten-4 google-font"
         primary-title
         :style="{'background-image':'url('+ require('@/assets/img/dontremove/spakerhead.jpg') +')'}"
@@ -17,7 +17,7 @@
         <v-container fluid class="my-0 pa-0">
           <v-row align="center">
             <v-col cols="12" class="text-center pa-2">
-              <v-avatar size="150">
+              <v-avatar size="150"> -->
                 <v-img
                   :src="getImgUrl(speaker.image, 'profile.jpg')"
                   style="border-style: solid;border-width: 5px;"
@@ -29,7 +29,7 @@
                     </v-row>
                   </template>
                 </v-img>
-              </v-avatar>
+              <!-- </v-avatar>
               <p
                 class="my-0 mt-3 google-font"
                 style="font-size:150%;"
@@ -52,7 +52,7 @@
           </v-row>
         </v-container>
 
-        <!-- <p class="my-0 google-font mt-2" style="font-size:120%">
+        <p class="my-0 google-font mt-2" style="font-size:120%">
           <b>Sessions:</b>
         </p>
 
@@ -75,8 +75,8 @@
               </v-list-item>
             </v-list>
           </v-col>
-        </v-row> -->
-      </v-card-text>
+        </v-row>
+      </v-card-text> -->
     </v-card>
     <v-row
       justify="center"
@@ -107,7 +107,7 @@
                   </v-row>
                 </template>
               </v-img>
-              <h2 class="google-font">Speaker Not Found</h2>
+              <h2 class="google-font">Card Not Found</h2>
               <p
                 class="google-font"
               >The requested URL /{{this.$route.params.id}} was not found on this server. That’s all we know.</p>
@@ -121,7 +121,7 @@
 
 <script>
 import service from "@/services/appservices";
-import SocialMediaDetails from "@/components/common/SocialInfo";
+// import SocialMediaDetails from "@/components/common/SocialInfo";
 import { mapState } from 'vuex'
 
 export default {
@@ -134,7 +134,7 @@ export default {
     eventLoader: false
   }),
   components: {
-    SocialMediaDetails
+    // SocialMediaDetails
   },
   computed:{
     ...mapState(['config'])
