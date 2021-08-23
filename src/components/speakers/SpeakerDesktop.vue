@@ -7,7 +7,7 @@
         </v-col>
       </v-row>
       <v-row v-else-if="Object.keys(speaker).length>0">
-        <v-col cols="12" sm="4" md="3" lg="3">
+        <v-col cols="12" sm="6" md="6" lg="6">
           <v-row>
             <v-col cols="12" sm="12">
               <v-card elevation="1">
@@ -21,7 +21,7 @@
                   <v-container fluid class="my-0 pa-0">
                     <v-row align="center">
                       <v-col cols="12" class="text-center pa-2">
-                        <v-avatar size="100">
+                        <v-avatar size="300">
                           <v-img
                             :src="checkExistance(speaker.image,0)?speaker.image:require('@/assets/img/dontremove/profile.jpg')"
                             style="border-style: solid;border-width: 5px;"
