@@ -21,11 +21,12 @@
           style="font-weight: 350;font-size:230%"
         >
           <b>
-            Buscando mejores formas con
-            <span style="color: #1a73e8;">Ludificación</span>.
+            Buscando mejores formas a través del 
+            <span style="color: #1a73e8;">JUEGO</span>.
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
+        <!-- <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p> -->
+        <p class="google-font mt-0 mb-0" style="font-size:150%"></p>
         <p class="google-font" style="font-size:100%">{{config.generalConfig.shortDescription}}</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
           <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">

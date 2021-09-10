@@ -20,7 +20,22 @@
                 </v-img>
             </v-col>
             <v-col md="8" sm="12" cols="12" class="py-0 my-0">
-                <!-- {{data}} -->
+                
+                <p>
+                    Convencidas de que el juego, además de ser una herramienta de comunicación y de aprendizaje, tiene la capacidad de transformar los espacios, los entornos y a las personas.
+                </p> 
+                <p>
+                    Por eso, fundamos Koopa y reivindicamos el <b>play thinking</b>, conectando con la actitud lúdica de las personas.
+                </p>
+                <p>
+                    Líneas de trabajo:
+                    <ul>
+                    <li>Formación en juego y aprendizaje en instituciones educativas.</li>
+                    <li>Diseño de juegos y actividades lúdicas para organizaciones.</li>
+                    <li>Facilitación con metodología <b>Flowcilitate</b>:
+                        <p>Un facilitador puede hacer que cada miembro del equipo opere al máximo de su potencial con compromiso y propósito. Con estos talleres las personas colaboran, se integran, se mantienen más motivadas y aportan mejores soluciones. Finalmente, un acercamiento facilitativo desemboca en el aumento de la productividad y el desarrollo de las personas y los equipos.</p></li>
+                    </ul>
+                </p>
                 <p class="google-font mt-0" style="font-size:110%">{{data.longDescription}}</p>
                 <br>
                 <v-btn v-if="checkExistance(data.becomemember, 0)" :href="data.becomemember" target="_blank" class="ma-0 google-font elevation-1 primary" style="text-transform: capitalize;border-radius:5px;color:white">Become a Member</v-btn>

@@ -4,7 +4,7 @@
         class=""
         @click="goToTeam(data.id)"
         >
-            <v-list-item-avatar>
+            <v-list-item-avatar size="80">
                 <img :src="getImgUrl(data.image, 'profile.jpg')">
             </v-list-item-avatar>
 
